@@ -5,6 +5,7 @@ import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { productCategories } from "@/lib/data";
+import { normalizePath } from "@/lib/basePath";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -19,9 +20,11 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [productsDropdownOpen, setProductsDropdownOpen] = useState(false);
 
+  const normalizedLocation = normalizePath(location);
+
   const isActive = (href: string) => {
-    if (href === "/") return location === "/";
-    return location.startsWith(href);
+    if (href === "/") return normalizedLocation === "/";
+    return normalizedLocation.startsWith(href);
   };
 
   return (
