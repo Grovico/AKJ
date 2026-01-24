@@ -32,7 +32,7 @@ const timelineEvents = [
   {
     year: "1989",
     title: "Foundation",
-    description: "A. Kumarasamy Nayakar established the firm in Ramanathapuram district with a vision to supply quality construction materials."
+    description: "Jeyam Traders established the firm in Ramanathapuram district with a vision to supply quality construction materials."
   },
   {
     year: "1995",
@@ -131,7 +131,7 @@ export default function About() {
                 A Legacy of Trust and Quality
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                The firm was founded by <strong className="text-foreground">A. Kumarasamy Nayakar</strong> with 
+                The firm was founded by <strong className="text-foreground">JEGANATHAN (Jeyam Traders)</strong> with 
                 a simple vision: to provide the highest quality construction materials to builders 
                 and contractors across Tamil Nadu. What started as a small trading operation in 
                 Ramanathapuram district has grown into one of the region's most trusted suppliers 
@@ -158,7 +158,7 @@ export default function About() {
                       <Building2 className="h-8 w-8 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-xl text-foreground">A. Kumarasamy Nayakar</h3>
+                      <h3 className="font-semibold text-xl text-foreground">JEGANATHAN (Jeyam Traders)</h3>
                       <p className="text-muted-foreground">Founder & Proprietor</p>
                     </div>
                   </div>

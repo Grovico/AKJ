@@ -3,6 +3,7 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertInquirySchema } from "@shared/schema";
 import { fromError } from "zod-validation-error";
+import { sendInquiryEmails } from "./email";
 
 export async function registerRoutes(
   httpServer: Server,
@@ -22,6 +23,12 @@ export async function registerRoutes(
       }
 
       const inquiry = await storage.createInquiry(validatedData.data);
+      
+      // Send emails asynchronously (don't wait for it to complete)
+      // This ensures the API responds quickly even if email sending takes time
+      sendInquiryEmails(validatedData.data).catch((err) => {
+        console.error("Failed to send inquiry emails:", err);
+      });
       
       return res.status(201).json(inquiry);
     } catch (error) {

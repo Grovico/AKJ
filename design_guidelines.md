@@ -1,4 +1,4 @@
-# Design Guidelines: A. Kumarasamy Nayakar Construction Materials Website
+# Design Guidelines: JEGANATHAN Jeyam Traders Construction Materials Website
 
 ## Design Approach
 **System-Based Approach**: Material Design principles adapted for B2B construction industry

@@ -48,8 +48,8 @@ export function Footer() {
                 <span className="text-primary-foreground font-bold text-lg">AK</span>
               </div>
               <div>
-                <p className="font-semibold text-foreground">A. Kumarasamy</p>
-                <p className="text-xs text-muted-foreground">Nayakar & Co.</p>
+                <p className="font-semibold text-foreground">JEGANATHAN</p>
+                <p className="text-xs text-muted-foreground">Jeyam Traders</p>
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -127,11 +127,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">+91 9876543210</span>
+                <span className="text-muted-foreground text-sm">+91 7867086626</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">info@aknayakar.com</span>
+                <span className="text-muted-foreground text-sm">akjeyamtraders6@gmail.com</span>
               </li>
             </ul>
           </motion.div>
@@ -146,7 +146,7 @@ export function Footer() {
           className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} A. Kumarasamy Nayakar & Co. All rights reserved.
+            &copy; {new Date().getFullYear()} Jeyam Traders. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             35 Years of Excellence in Construction Materials

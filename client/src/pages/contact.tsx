@@ -363,7 +363,7 @@ export default function Contact() {
                     <div>
                       <p className="font-medium text-foreground">Office Address</p>
                       <p className="text-muted-foreground text-sm">
-                        A. Kumarasamy Nayakar & Co.<br />
+                        Jeyam Traders<br />
                         Ramanathapuram District,<br />
                         Tamil Nadu, India
                       </p>
@@ -375,8 +375,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Phone</p>
-                      <p className="text-muted-foreground text-sm">+91 9876543210</p>
-                      <p className="text-muted-foreground text-sm">+91 9876543211</p>
+                      <p className="text-muted-foreground text-sm">+91 7867086626</p>
+                      <p className="text-muted-foreground text-sm">+91 9442233290</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -385,8 +385,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Email</p>
-                      <p className="text-muted-foreground text-sm">info@aknayakar.com</p>
-                      <p className="text-muted-foreground text-sm">sales@aknayakar.com</p>
+                      <p className="text-muted-foreground text-sm">akjeyamtraders6@gmail.com</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -462,7 +461,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-primary" />
-              <span className="text-xl font-semibold text-foreground">+91 9876543210</span>
+              <span className="text-xl font-semibold text-foreground">+91 7867086626</span>
             </div>
           </div>
         </div>

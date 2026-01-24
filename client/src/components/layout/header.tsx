@@ -43,8 +43,8 @@ export function Header() {
                 <span className="text-primary-foreground font-bold text-lg">AK</span>
               </div>
               <div className="hidden sm:block">
-                <p className="font-semibold text-foreground leading-tight">A. Kumarasamy</p>
-                <p className="text-xs text-muted-foreground">Nayakar & Co.</p>
+                <p className="font-semibold text-foreground leading-tight">JEGANATHAN</p>
+                <p className="text-xs text-muted-foreground">Jeyam Traders</p>
               </div>
             </motion.div>
           </Link>
@@ -113,7 +113,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <div className="hidden md:flex items-center gap-2 text-muted-foreground">
               <Phone className="h-4 w-4" />
-              <span className="text-sm">+91 9876543210</span>
+              <span className="text-sm">+91 7867086626</span>
             </div>
             <ThemeToggle />
             <Link href="/contact">
