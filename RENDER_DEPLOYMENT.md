@@ -59,7 +59,7 @@ Fill in the following settings:
 - **Branch**: `main` (or your default branch)
 - **Root Directory**: Leave empty (root of repo)
 - **Runtime**: `Node`
-- **Build Command**: `npm install && npm run build`
+- **Build Command**: `npm ci && npm run build`
 - **Start Command**: `npm run start`
 
 ### Environment Variables:
