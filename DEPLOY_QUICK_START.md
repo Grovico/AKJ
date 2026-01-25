@@ -16,7 +16,7 @@ git push
 3. Connect GitHub → Select your repository
 4. Configure:
    - **Name**: `aggregate-hub`
-   - **Build Command**: `npm ci && npm run build`
+   - **Build Command**: `npm install --include=dev && npm run build`
    - **Start Command**: `npm run start`
    - **Plan**: Free
 

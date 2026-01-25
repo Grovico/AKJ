@@ -88,7 +88,7 @@ export default function Contact() {
 
   const submitMutation = useMutation({
     mutationFn: async (data: InquiryFormValues) => {
-      return apiRequest("POST", "/api/inquiries", data);
+      return apiRequest("POST", "/.netlify/functions/send-inquiry", data);
     },
     onSuccess: () => {
       setSubmitted(true);
