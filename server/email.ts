@@ -152,10 +152,10 @@ function getCustomerEmailTemplate(inquiry: InsertInquiry) {
               
               <div class="contact-info">
                 <h3 style="margin-top: 0; color: #1f2937;">Need Immediate Assistance?</h3>
-                <p><strong>📞 Phone:</strong> +91 7867086626 / +91 9442233290</p>
+                <p><strong>📞 Phone:</strong> +91 9442233290 / +91 7867086626</p>
                 <p><strong>📧 Email:</strong> akjeyamtraders6@gmail.com</p>
                 <p><strong>🕐 Business Hours:</strong> Monday - Saturday, 8:00 AM - 6:00 PM</p>
-                <p><strong>📍 Location:</strong> Ramanathapuram District, Tamil Nadu, India</p>
+                <p><strong>📍 Location:</strong> Ramanathapuram & Thoothukudi Districts, Tamil Nadu, India</p>
               </div>
               
               <p style="margin-top: 30px;">We look forward to serving you and being part of your construction project!</p>
@@ -166,7 +166,7 @@ function getCustomerEmailTemplate(inquiry: InsertInquiry) {
             </div>
             <div class="footer">
               <p>&copy; ${new Date().getFullYear()} Jeyam Traders. All rights reserved.</p>
-              <p>Ramanathapuram District, Tamil Nadu, India</p>
+              <p>Ramanathapuram & Thoothukudi Districts, Tamil Nadu, India</p>
             </div>
           </div>
         </body>
@@ -188,10 +188,10 @@ ${inquiry.quantity ? `- Quantity: ${inquiry.quantity}\n` : ""}
 - Reference Number: ${new Date().getTime()}
 
 Need Immediate Assistance?
-Phone: +91 7867086626 / +91 9442233290
+Phone: +91 9442233290 / +91 7867086626
 Email: akjeyamtraders6@gmail.com
 Business Hours: Monday - Saturday, 8:00 AM - 6:00 PM
-Location: Ramanathapuram District, Tamil Nadu, India
+Location: Ramanathapuram & Thoothukudi Districts, Tamil Nadu, India
 
 We look forward to serving you!
 

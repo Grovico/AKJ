@@ -174,7 +174,7 @@ export default function About() {
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <MapPin className="h-4 w-4 text-primary" />
-                    <span>Ramanathapuram District, Tamil Nadu</span>
+                    <span>Ramanathapuram & Thoothukudi Districts, Tamil Nadu</span>
                   </div>
                 </div>
               </Card>

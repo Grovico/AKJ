@@ -44,8 +44,8 @@ export function Footer() {
           {/* Company Info */}
           <motion.div variants={itemVariants} className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">AK</span>
+              <div className="w-10 h-10 bg-green-600 rounded-md flex items-center justify-center">
+                <span className="text-white font-bold text-lg">AK</span>
               </div>
               <div>
                 <p className="font-semibold text-foreground">JEGANATHAN</p>
@@ -121,13 +121,13 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-muted-foreground text-sm">
-                  Ramanathapuram District,<br />
+                  Ramanathapuram & Thoothukudi Districts,<br />
                   Tamil Nadu, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-muted-foreground text-sm">+91 7867086626</span>
+                <span className="text-muted-foreground text-sm">+91 9442233290</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />

@@ -165,12 +165,12 @@ export default function Projects() {
             {[
               {
                 quote: "Reliable supplier with consistent quality. Their timely delivery has been crucial for our project schedules. Highly recommended for large-scale construction projects.",
-                client: "CMK Construction",
+                client: "RPP Construction",
                 role: "Project Manager"
               },
               {
                 quote: "35 years of experience shows in their product quality and service. The materials meet all IS standards, and their team is always responsive to our requirements.",
-                client: "URC Construction",
+                client: "L&T Corporation",
                 role: "Procurement Head"
               }
             ].map((testimonial, index) => (

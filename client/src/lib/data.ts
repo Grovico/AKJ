@@ -183,63 +183,95 @@ export const products: Product[] = [
 export const projects: Project[] = [
   {
     id: "proj-1",
-    name: "Ramanathapuram Medical College",
-    client: "Government of Tamil Nadu",
-    location: "Ramanathapuram, Tamil Nadu",
-    description: "Complete supply of construction materials including sand, stone aggregates for the prestigious medical college infrastructure project.",
-    materialsSupplied: ["River Sand", "20mm Aggregate", "40mm Aggregate", "M-Sand"],
+    name: "Building Construction Project",
+    client: "Mohammed Jamaludeen",
+    location: "Ramanathapuram & Thoothukudi Districts, Tamil Nadu",
+    description: "Complete supply of construction materials including sand and stone aggregates for building construction.",
+    materialsSupplied: ["River Sand", "20mm Aggregate", "M-Sand", "Plastering Sand"],
     image: projectImage1,
     year: "2022"
   },
   {
     id: "proj-2",
-    name: "CMK Construction - Commercial Complex",
-    client: "CMK Construction Chennai",
-    location: "Chennai, Tamil Nadu",
-    description: "Large-scale supply of premium quality aggregates and sand for multi-storey commercial building construction.",
+    name: "Commercial Construction Project",
+    client: "RPP Construction",
+    location: "Tamil Nadu",
+    description: "Large-scale supply of premium quality aggregates and sand for commercial building construction.",
     materialsSupplied: ["M-Sand", "20mm Aggregate", "12mm Aggregate", "Plastering Sand"],
     image: projectImage2,
     year: "2023"
   },
   {
     id: "proj-3",
-    name: "URC Construction - Residential Township",
-    client: "URC Construction",
-    location: "Chennai Metropolitan Area",
-    description: "Comprehensive material supply for large residential township development spanning multiple phases.",
+    name: "Residential & Commercial Project",
+    client: "Sree Pathi Construction",
+    location: "Tamil Nadu",
+    description: "Comprehensive material supply for residential and commercial development projects.",
     materialsSupplied: ["River Sand", "Coarse Aggregate Mix", "Fine Aggregate", "M-Sand"],
     image: projectImage3,
     year: "2023"
   },
   {
     id: "proj-4",
-    name: "Sunex Concrete - Ready Mix Plant",
-    client: "Sunex Concrete",
+    name: "Infrastructure Development Project",
+    client: "L&T Corporation",
     location: "Tamil Nadu",
-    description: "Regular bulk supply of graded aggregates and manufactured sand for ready-mix concrete production.",
-    materialsSupplied: ["M-Sand", "20mm Aggregate", "12mm Aggregate", "Fine Aggregate"],
-    image: equipmentImage2,
-    year: "Ongoing"
+    description: "Strategic supply of construction materials for major infrastructure development.",
+    materialsSupplied: ["40mm Aggregate", "20mm Aggregate", "River Sand", "Coarse Aggregate Mix"],
+    image: equipmentImage1,
+    year: "2024"
   },
   {
     id: "proj-5",
-    name: "Esteem Engineering - Infrastructure Project",
-    client: "Esteem Engineering",
+    name: "Construction Materials Supply",
+    client: "Sai Ram Construction",
+    location: "Ramanathapuram & Thoothukudi Districts, Tamil Nadu",
+    description: "Regular bulk supply of sand, aggregates and construction materials for building projects.",
+    materialsSupplied: ["M-Sand", "20mm Aggregate", "12mm Aggregate", "River Sand"],
+    image: equipmentImage2,
+    year: "2022"
+  },
+  {
+    id: "proj-6",
+    name: "Building Project",
+    client: "Camean India Construction",
     location: "Tamil Nadu",
-    description: "Strategic partnership for infrastructure development with consistent quality material supply.",
-    materialsSupplied: ["40mm Aggregate", "20mm Aggregate", "River Sand", "Coarse Aggregate Mix"],
-    image: projectImage1,
+    description: "Supply of quality construction materials including sand and stone aggregates for building works.",
+    materialsSupplied: ["River Sand", "20mm Aggregate", "Plastering Sand", "Fine Aggregate"],
+    image: sandImage1,
     year: "2024"
+  },
+  {
+    id: "proj-7",
+    name: "Civil Construction Project",
+    client: "CCC Construction",
+    location: "Tamil Nadu",
+    description: "Comprehensive material supply for civil construction and structural works.",
+    materialsSupplied: ["M-Sand", "40mm Aggregate", "20mm Aggregate", "Coarse Aggregate Mix"],
+    image: stoneImage1,
+    year: "2023"
+  },
+  {
+    id: "proj-8",
+    name: "Construction Project",
+    client: "V S Construction",
+    location: "Ramanathapuram & Thoothukudi Districts, Tamil Nadu",
+    description: "Reliable supply of construction materials for ongoing building and civil works.",
+    materialsSupplied: ["River Sand", "M-Sand", "20mm Aggregate", "12mm Aggregate"],
+    image: stoneImage2,
+    year: "Ongoing"
   }
 ];
 
 export const clients: Client[] = [
-  { id: "client-1", name: "CMK Construction Chennai" },
-  { id: "client-2", name: "URC Construction" },
-  { id: "client-3", name: "Sunex Concrete" },
-  { id: "client-4", name: "Esteem Engineering" },
-  { id: "client-5", name: "RTC Salt" },
-  { id: "client-6", name: "Alagar Salt" }
+  { id: "client-1", name: "Mohammed Jamaludeen" },
+  { id: "client-2", name: "RPP Construction" },
+  { id: "client-3", name: "Sree Pathi Construction" },
+  { id: "client-4", name: "L&T Corporation" },
+  { id: "client-5", name: "Sai Ram Construction" },
+  { id: "client-6", name: "Camean India Construction" },
+  { id: "client-7", name: "CCC Construction" },
+  { id: "client-8", name: "V S Construction" }
 ];
 
 export const stats: StatItem[] = [

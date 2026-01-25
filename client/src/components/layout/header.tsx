@@ -39,8 +39,8 @@ export function Header() {
               transition={{ duration: 0.2 }}
               data-testid="link-logo"
             >
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">AK</span>
+              <div className="w-10 h-10 bg-green-600 rounded-md flex items-center justify-center">
+                <span className="text-white font-bold text-lg">AK</span>
               </div>
               <div className="hidden sm:block">
                 <p className="font-semibold text-foreground leading-tight">JEGANATHAN</p>
@@ -113,7 +113,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <div className="hidden md:flex items-center gap-2 text-muted-foreground">
               <Phone className="h-4 w-4" />
-              <span className="text-sm">+91 7867086626</span>
+              <span className="text-sm">+91 9442233290</span>
             </div>
             <ThemeToggle />
             <Link href="/contact">

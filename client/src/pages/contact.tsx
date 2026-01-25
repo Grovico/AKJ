@@ -364,7 +364,7 @@ export default function Contact() {
                       <p className="font-medium text-foreground">Office Address</p>
                       <p className="text-muted-foreground text-sm">
                         Jeyam Traders<br />
-                        Ramanathapuram District,<br />
+                        Ramanathapuram & Thoothukudi Districts,<br />
                         Tamil Nadu, India
                       </p>
                     </div>
@@ -375,8 +375,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Phone</p>
-                      <p className="text-muted-foreground text-sm">+91 7867086626</p>
                       <p className="text-muted-foreground text-sm">+91 9442233290</p>
+                      <p className="text-muted-foreground text-sm">+91 7867086626</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
@@ -436,7 +436,7 @@ export default function Contact() {
                   <div className="text-center">
                     <MapPin className="h-8 w-8 text-muted-foreground mx-auto mb-2" />
                     <p className="text-muted-foreground text-sm">
-                      Ramanathapuram District, Tamil Nadu
+                      Ramanathapuram & Thoothukudi Districts, Tamil Nadu
                     </p>
                     <p className="text-xs text-muted-foreground mt-1">
                       Serving all major cities across Tamil Nadu
@@ -461,7 +461,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-primary" />
-              <span className="text-xl font-semibold text-foreground">+91 7867086626</span>
+              <span className="text-xl font-semibold text-foreground">+91 9442233290</span>
             </div>
           </div>
         </div>
