@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react";
 import { productCategories } from "@/lib/data";
+import akjLogo from "@assets/stock_images/AKJ Logo.png";
 
 const footerLinks = {
   company: [
@@ -44,9 +45,11 @@ export function Footer() {
           {/* Company Info */}
           <motion.div variants={itemVariants} className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-green-600 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-lg">AK</span>
-              </div>
+              <img
+                src={akjLogo}
+                alt="AKJ Jeyam Traders"
+                className="h-[70px] w-[70px] object-contain"
+              />
               <div>
                 <p className="font-semibold text-foreground">JEGANATHAN</p>
                 <p className="text-xs text-muted-foreground">Jeyam Traders</p>

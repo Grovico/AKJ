@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { productCategories } from "@/lib/data";
 import { normalizePath } from "@/lib/basePath";
+import akjLogo from "@assets/stock_images/AKJ Logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -39,9 +40,11 @@ export function Header() {
               transition={{ duration: 0.2 }}
               data-testid="link-logo"
             >
-              <div className="w-10 h-10 bg-green-600 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-lg">AK</span>
-              </div>
+              <img
+                src={akjLogo}
+                alt="AKJ Jeyam Traders"
+                className="h-[70px] w-[70px] object-contain"
+              />
               <div className="hidden sm:block">
                 <p className="font-semibold text-foreground leading-tight">JEGANATHAN</p>
                 <p className="text-xs text-muted-foreground">Jeyam Traders</p>

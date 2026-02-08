@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { SEO } from "@/components/SEO";
 import { normalizePath } from "@/lib/basePath";
 import Home from "@/pages/home";
 import Products from "@/pages/products";
@@ -39,6 +40,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <div className="min-h-screen flex flex-col bg-background">
+            <SEO />
             <Header />
             <main className="flex-1">
               <Router />
